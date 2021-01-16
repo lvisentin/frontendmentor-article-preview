@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #EDF2F8;
+}
+
+.panel {
+    display: flex;
+    background: white;
+    width: 700px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,.2);
+    border: 1px solid #DBE2EA;
+}
+
+.panel-left {
+    width: 40%;
+    background-image: url('images/drawers.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+.panel-right{
+    width: 60%;
+    padding: 30px;
+}
+
+.panel-right-header p{
+    color: #484B50;
+    font-weight: 500;
+    line-height: 25px;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.panel-right-body p {
+    font-weight: 300;
+    color: #B8BCBF;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+.panel-left img {
+    height: auto;
+    width: 100%;
+}
+
+.panel-right-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.panel-right-footer img {
+    border-radius: 100%;
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.panel-right-footer .text {
+    margin-left:10px;
+}
+
+.panel-right-footer .text p {
+    margin: 0px;
+}
+
+.panel-right-footer .text p:first-of-type {
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+
+.panel-right-footer .text .name {
+    color: #484B50;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.panel-right-footer .text .date {
+    color: #B8BCBF;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.michele-div {
+    display: flex;
+    align-items: center;
+}
